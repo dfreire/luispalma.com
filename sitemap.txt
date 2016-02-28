@@ -1,0 +1,39 @@
+- home
+- biografia
+- projectos
+    - Paisagens Periféricas
+    - Paisagem, Indústria, Memória
+    - Memória Afectiva #2
+    - Territorialidade
+    - Ocupação
+    - Anatomia de um Sonho
+    - Mapeamento, Memória, Política
+    - As Cidades Divididas
+- textos
+    - Paisagens Periféricas, Memória e Recordação
+    - Bascos
+    - Paisagem, Indústria, Memória
+    - Silentes
+    - Territorialidade
+    - Factos e Ficções, a propósito de Territorialidade.
+    - Um diálogo com António Soares, a propósito de ‘Ocupação’.
+    - Sobre a fotografia da Estação Internacional de Canfranc.
+    - Dar a ver as cicatrizes da História
+    - As Cidades Divididas
+- edições
+    - Ocupação
+    - Anatomia de um Sonho
+    - Mapeamento, Memória, Política
+    - From East to West
+- colecções
+    - Fundación Coca - Cola
+    - Sala Rekalde
+    - Museu do Vinho da Bairrada
+    - Fundação Ilídio Pinho
+    - BES ARTE
+    - Museu de Arte Contemporânea de Serralves
+    - Tróia Design Hotel
+    - Museu de Arte Contemporânea de Elvas
+    - Fundação EDP
+- video
+- contacto
