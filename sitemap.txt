@@ -36,5 +36,5 @@
     - Museu de Arte Contemporânea de Elvas
     - Fundação EDP
 - video
-    https://www.youtube.com/watch?v=_oeOwE-xlXQ&feature=youtu.be
+    https://www.youtube.com/watch?v=_oeOwE-xlXQ
 - contacto

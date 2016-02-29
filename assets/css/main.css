@@ -1,6 +1,13 @@
 html, body {
     color: #494949;
 }
+a {
+    text-decoration: none;
+    color: #777;
+}
+a:hover {
+    color: black;
+}
 header {
     margin-top: 50px;
     text-align: center;
@@ -8,4 +15,27 @@ header {
 .title {
     text-transform: uppercase;
     font-weight: bold;
+}
+.menu > li {
+    position: relative;
+    display: inline-block;
+    padding: 0 15px 0 15px;
+    text-transform: lowercase;
+}
+.submenu {
+    position: absolute;
+    display: none;
+    visibility: hidden;
+    width: 300px;
+    top: 15px;
+    left: -15px;
+    text-align: left;
+}
+.menu > li:hover > .submenu {
+    visibility: visible;
+    display: block;
+}
+.submenu > li {
+    display: block;
+    padding: 0px 0;
 }
