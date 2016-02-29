@@ -19,17 +19,28 @@ header {
 .menu > li {
     position: relative;
     display: inline-block;
-    padding: 0 15px 0 15px;
+    padding: 0;
+    margin: 0;
     text-transform: lowercase;
+    /*border: 1px solid black;*/
+}
+.menu > li > a {
+    padding: 10px 15px;
+}
+.menu > li > a:hover {
+    color: white;
 }
 .submenu {
     position: absolute;
     display: none;
     visibility: hidden;
-    width: 300px;
-    top: 15px;
-    left: -15px;
+    width: 350px;
+    top: 19px;
+    left: -30px;
     text-align: left;
+}
+.menu > li:hover {
+    background-color: #494949;
 }
 .menu > li:hover > .submenu {
     visibility: visible;
@@ -37,5 +48,13 @@ header {
 }
 .submenu > li {
     display: block;
-    padding: 0px 0;
+    padding: 0;
+    margin: 0;
+}
+.submenu > li > a {
+    padding: 10px 15px;
+    background-color: #494949;
+}
+.submenu > li > a:hover {
+    color: white;
 }
