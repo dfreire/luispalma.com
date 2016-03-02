@@ -1,5 +1,6 @@
 html, body {
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 10pt;
     color: #494949;
 }
 a {
@@ -20,9 +21,8 @@ header {
 .menu > li {
     position: relative;
     display: inline-block;
-    padding: 10px 15px 10px 15px;
+    padding: 10px 15px;
     margin: 0;
-    font-size: 10pt;
     text-transform: uppercase;
 }
 .menu > li:hover {
@@ -39,13 +39,13 @@ header {
     position: absolute;
     display: none;
     visibility: hidden;
-    top: 25px;
-    left: -30px;
-    width: 350px;
+    top: 15px;
+    left: -40px;
+    width: 225px;
     background-color: #494949;
     padding: 5px 15px;
     text-align: left;
-    font-size: 9pt;
+    font-size: 0.9em;
 }
 .submenu > li {
     display: block;
