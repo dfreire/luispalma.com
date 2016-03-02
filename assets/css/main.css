@@ -1,4 +1,5 @@
 html, body {
+    font-family: Helvetica, Arial, sans-serif;
     color: #494949;
 }
 a {
@@ -19,9 +20,10 @@ header {
 .menu > li {
     position: relative;
     display: inline-block;
-    padding: 0;
+    padding: 0 15px 15px 15px;
     margin: 0;
-    text-transform: lowercase;
+    font-size: 10pt;
+    text-transform: uppercase;;
     /*border: 1px solid black;*/
 }
 .menu > li > a {
