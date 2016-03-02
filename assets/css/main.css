@@ -3,6 +3,9 @@ html, body {
     font-size: 10pt;
     color: #494949;
 }
+h1 {
+    margin: 1rem;
+}
 a {
     text-decoration: none;
     color: #777;
@@ -11,7 +14,7 @@ a:hover {
     color: black;
 }
 header {
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
 }
 .title {
@@ -45,7 +48,7 @@ header {
     background-color: #494949;
     padding: 5px 15px;
     text-align: left;
-    font-size: 0.9em;
+    font-size: 0.9rem;
 }
 .submenu > li {
     display: block;
