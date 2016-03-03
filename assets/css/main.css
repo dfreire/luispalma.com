@@ -67,10 +67,14 @@ header {
 .submenu > li > a:hover {
     color: white;
 }
-.movie {
+.filme {
     width: 100%;
     text-align: center;
 }
-.movie iframe {
-    max-width: 750px;
+.filme iframe {
+    max-width: 700px;
+}
+footer {
+    margin-top: 50px;
+    text-align: center;
 }

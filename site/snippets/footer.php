@@ -1,14 +1,15 @@
-  <!-- <footer class="footer cf" role="contentinfo">
+  <footer>
+
+    <!-- <div class="contact">
+      Email:&nbsp;<a href="mailto:lp.luispalma@gmail.com">lp.luispalma@gmail.com</a>
+    </div> -->
 
     <div class="copyright">
       <?php echo $site->copyright()->kirbytext() ?>
     </div>
 
-    <div class="colophon">
-      <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b>♥</b></a>
-    </div>
 
-  </footer> -->
+  </footer>
 
   </div>
 
