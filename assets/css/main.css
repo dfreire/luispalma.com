@@ -67,3 +67,10 @@ header {
 .submenu > li > a:hover {
     color: white;
 }
+.movie {
+    width: 100%;
+    text-align: center;
+}
+.movie iframe {
+    max-width: 750px;
+}

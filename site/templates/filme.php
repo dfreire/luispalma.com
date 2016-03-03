@@ -1,6 +1,8 @@
 <?php snippet('header') ?>
 
-<?php echo youtube($page->youtubeLink()->kirbytext(), "100%", "100%") ?>
+<div class="movie">
+        <?php echo youtube($page->youtubeLink()->kirbytext(), "100%") ?>
+</div>
 
 <script type="text/javascript">
     function updateHeight() {
