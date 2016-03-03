@@ -2,8 +2,8 @@
 
   <ul class="menu">
     <?php foreach ($pages->visible() as $p): ?>
-    <li>
-      <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
+    <li <?php e($p->isOpen(), ' class="active"') ?>>
+      <a href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
 
       <?php if ($p->hasVisibleChildren()): ?>
       <ul class="submenu">
