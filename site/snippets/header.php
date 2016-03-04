@@ -11,7 +11,7 @@
 
   <link rel="shortcut icon" href="/favicon.ico" />
 
-  <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css"> -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
 
   <?php echo css('assets/css/main.css') ?>
 
