@@ -1,8 +1,11 @@
+<?php snippet('intro') ?>
 <?php snippet('header') ?>
 
 <div class="filme">
-        <?php echo youtube($page->youtubeLink()->kirbytext(), "100%") ?>
+    <?php echo youtube($page->youtubeLink()->kirbytext(), "100%") ?>
 </div>
+
+<?php snippet('footer') ?>
 
 <script type="text/javascript">
     function updateHeight() {
@@ -18,4 +21,4 @@
     $(window).on("resize", updateHeight);
 </script>
 
-<?php snippet('footer') ?>
+<?php snippet('outro') ?>

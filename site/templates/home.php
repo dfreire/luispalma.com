@@ -1,3 +1,4 @@
+<?php snippet('intro') ?>
 <?php snippet('header') ?>
 
   <!-- <main class="main" role="main">
@@ -14,3 +15,4 @@
   </main> -->
 
 <?php snippet('footer') ?>
+<?php snippet('outro') ?>
