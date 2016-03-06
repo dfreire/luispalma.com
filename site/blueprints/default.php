@@ -10,7 +10,7 @@ fields:
   isTitleVisible:
     label: Title Visible
     type: checkbox
-    text: Should the title be display in the page along the text?
+    text: Should the title be visible along with the text?
   text:
     label: Text
     type:  textarea

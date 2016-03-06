@@ -79,6 +79,12 @@ textarea:focus,
 button:focus {
   outline: none; }
 
+strong {
+  font-weight: bold; }
+
+ol {
+  list-style: decimal; }
+
 body {
   width: 700px; }
 
@@ -98,6 +104,9 @@ a {
 
 a:hover {
   color: black; }
+
+ol {
+  margin-left: 15px; }
 
 /** HEADER **/
 header {
@@ -177,7 +186,13 @@ footer {
 
 .text-page p {
   text-align: justify;
-  line-height: 1.5rem; }
+  line-height: 1.5rem;
+  margin-bottom: 1rem; }
+
+.text-page ol {
+  text-align: justify;
+  line-height: 1.5rem;
+  margin-bottom: 1rem; }
 
 /** FILME PAGE **/
 .filme-page {
