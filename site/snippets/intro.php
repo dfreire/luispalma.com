@@ -12,6 +12,7 @@
   <link rel="shortcut icon" href="/favicon.ico" />
 
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 
   <?php echo css('assets/css/main.css') ?>
 </head>
