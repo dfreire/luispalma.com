@@ -195,6 +195,8 @@ footer {
   margin-bottom: 1rem; }
 
 .image-link {
-  float: left; }
+  float: left;
+  display: block;
+  margin: 6px; }
 
 /*# sourceMappingURL=main.css.map */
