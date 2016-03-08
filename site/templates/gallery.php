@@ -6,9 +6,9 @@
         <h2 class="title"><?php echo $page->title()->html() ?></h2>
     <?php endif ?>
     <div class="gallery">
-        <div class="grid">
+        <div data-masonry='{ "itemSelector": ".grid-item" }'>
             <?php foreach ($page->images() as $image): ?>
-                <a class="image-link grid-item" href="<?php echo $image->url() ?>"><?php echo thumb($image, array('width' => 150)) ?></a>
+                <a href="<?php echo $image->url() ?>"><?php echo thumb($image, array('width' => 170)) ?></a>
             <?php endforeach ?>
         </div>
     </div>
@@ -20,13 +20,6 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-
-        $('.grid').masonry({
-          // options
-          itemSelector: '.grid-item',
-          columnWidth: 175
-        });
-
     	$('.gallery').magnificPopup({
     		delegate: 'a',
     		type: 'image',
