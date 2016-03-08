@@ -145,6 +145,7 @@ header .title {
   display: block; }
 
 .submenu {
+  z-index: 999;
   position: absolute;
   display: none;
   visibility: hidden;
