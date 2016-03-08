@@ -6,12 +6,13 @@
         <h2 class="title"><?php echo $page->title()->html() ?></h2>
     <?php endif ?>
     <div class="gallery">
-        <div data-masonry='{ "itemSelector": ".grid-item" }'>
+        <div data-masonry='{ "itemSelector": ".gallery-item" }'>
             <?php foreach ($page->images() as $image): ?>
-                <a href="<?php echo $image->url() ?>"><?php echo thumb($image, array('width' => 170)) ?></a>
+                <a class="gallery-item" href="<?php echo $image->url() ?>"><?php echo thumb($image, array('width' => 170)) ?></a>
             <?php endforeach ?>
         </div>
     </div>
+    <div id="height-hack"></div>
 </div>
 
 <?php snippet('footer') ?>

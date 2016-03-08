@@ -85,10 +85,6 @@ strong {
 ol {
   list-style: decimal; }
 
-.container {
-  display: flex;
-  flex-direction: column; }
-
 body {
   width: 700px; }
 
@@ -198,9 +194,8 @@ footer {
   line-height: 1.5rem;
   margin-bottom: 1rem; }
 
-.image-link {
-  float: left;
-  display: block;
-  margin: 6px; }
+/** GALLERY **/
+.gallery-item {
+  margin: 2px 2px; }
 
 /*# sourceMappingURL=main.css.map */
