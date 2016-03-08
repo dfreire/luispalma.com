@@ -85,6 +85,10 @@ strong {
 ol {
   list-style: decimal; }
 
+.container {
+  display: flex;
+  flex-direction: column; }
+
 body {
   width: 700px; }
 
