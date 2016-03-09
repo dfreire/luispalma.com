@@ -1,18 +1,13 @@
 <?php snippet('intro') ?>
 <?php snippet('header') ?>
 
-  <!-- <main class="main" role="main">
-
-    <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
-      <?php echo $page->text()->kirbytext() ?>
+<div class="page">
+    <div>
+        <?php foreach ($page->images() as $image): ?>
+            <?php echo thumb($image, array('width' => "700")) ?>
+        <?php endforeach ?>
     </div>
-
-    <hr>
-
-    <?php snippet('projects') ?>
-
-  </main> -->
+</div>
 
 <?php snippet('footer') ?>
 <?php snippet('outro') ?>
