@@ -3,3 +3,12 @@ Title: Edições
 ----
 
 Text: 
+
+- (file: ocupacao.pdf text:Ocupação - PDF)
+- (file: anatomia_de_um_sonho.pdf text: Anatomia de um Sonho - PDF)
+- (file: mapeamento_memoria_politica.pdf text: Mapeamento, Memória, Política - PDF)
+- (file: from_east_to_west.pdf text: From East to West - PDF)
+
+----
+
+Istitlevisible: 0
