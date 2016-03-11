@@ -39,8 +39,8 @@
     }
 
     $(document).ready(function() {
-        initGallery();
-        initLightbox();
+        setTimeout(initGallery, 0);
+        setTimeout(initLightbox, 0);
     });
 </script>
 
