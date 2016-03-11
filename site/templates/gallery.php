@@ -6,11 +6,9 @@
         <h2 class="title"><?php echo $page->title()->html() ?></h2>
     <?php endif ?>
     <div class="gallery">
-        <div data-masonry='{ "itemSelector": ".gallery-item" }'>
-            <?php foreach ($page->images() as $image): ?>
-                <a class="gallery-item" href="<?php echo $image->url() ?>"><?php echo thumb($image, array('width' => 170)) ?></a>
-            <?php endforeach ?>
-        </div>
+        <?php foreach ($page->images() as $image): ?>
+            <a class="gallery-item" href="<?php echo $image->url() ?>"><?php echo thumb($image, array('width' => 170)) ?></a>
+        <?php endforeach ?>
     </div>
     <div id="height-hack"></div>
 </div>
@@ -20,8 +18,14 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/masonry/4.0.0/masonry.pkgd.min.js"></script>
 
 <script type="text/javascript">
-    $(document).ready(function() {
-    	$('.gallery').magnificPopup({
+    function initGallery() {
+        $('.gallery').masonry({
+            itemSelector: '.gallery-item'
+        });
+    }
+
+    function initLightbox() {
+        $('.gallery').magnificPopup({
     		delegate: 'a',
     		type: 'image',
     		gallery: {
@@ -33,6 +37,11 @@
                 cursor: null
             }
     	});
+    }
+
+    $(document).ready(function() {
+        initGallery();
+        initLightbox();
     });
 </script>
 <?php snippet('outro') ?>
