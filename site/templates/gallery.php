@@ -16,7 +16,6 @@
 <?php snippet('footer') ?>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/masonry/4.0.0/masonry.pkgd.min.js"></script>
-
 <script type="text/javascript">
     function initGallery() {
         $('.gallery').masonry({
@@ -44,4 +43,5 @@
         initLightbox();
     });
 </script>
+
 <?php snippet('outro') ?>
