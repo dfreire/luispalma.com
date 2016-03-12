@@ -205,4 +205,9 @@ footer {
 .gallery-item {
   margin: 2px 2px; }
 
+/** EDICOES PAGE **/
+.edicoes.page ul {
+  margin-left: 250px;
+  line-height: 3rem; }
+
 /*# sourceMappingURL=main.css.map */

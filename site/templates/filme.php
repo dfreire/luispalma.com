@@ -1,7 +1,7 @@
 <?php snippet('intro') ?>
 <?php snippet('header') ?>
 
-<div class="page">
+<div class="filme page">
     <?php echo youtube($page->youtubeLink()->kirbytext(), "100%") ?>
 </div>
 

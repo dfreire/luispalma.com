@@ -2,7 +2,7 @@ Title: Edições
 
 ----
 
-Text: 
+Text:
 
 - (file: ocupacao.pdf text:Ocupação - PDF)
 - (file: anatomia_de_um_sonho.pdf text: Anatomia de um Sonho - PDF)

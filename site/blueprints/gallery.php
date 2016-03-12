@@ -10,4 +10,4 @@ fields:
   isTitleVisible:
     label: Title Visible
     type: checkbox
-    text: Should the title be visible along with the images?
+    text: Should the title be visible?
