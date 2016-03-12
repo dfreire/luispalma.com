@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Filme
+title: Movie
 pages: false
 files: false
 fields:

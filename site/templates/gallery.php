@@ -7,7 +7,7 @@
     <?php endif ?>
     <div class="gallery-container">
         <?php foreach ($page->images() as $image): ?>
-            <a class="gallery-item" href="<?php echo $image->url() ?>"><?php echo thumb($image, array('width' => 220)) ?></a>
+            <a class="gallery-item" href="<?php echo $image->url() ?>"><?php echo thumb($image, array('width' => 229)) ?></a>
         <?php endforeach ?>
     </div>
     <div id="height-hack"></div>
