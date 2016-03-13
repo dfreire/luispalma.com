@@ -1,7 +1,7 @@
 <?php snippet('intro') ?>
 <?php snippet('header') ?>
 
-<div class="edicoes page">
+<div class="editions page">
     <?php if($page->isTitleVisible() == '1'): ?>
         <h2 class="title"><?php echo $page->title()->html() ?></h2>
     <?php endif ?>
