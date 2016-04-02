@@ -1,0 +1,6 @@
+[ ] menu page lists
+    example: the "projectos" page should list all the projects pages
+[ ] no mosaic, images open like in the old site
+[ ] "edições" page: pdf files as submenu items
+[ ] contact page with the email
+[ ] footer font size should be reduced

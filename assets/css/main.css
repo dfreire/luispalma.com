@@ -90,12 +90,12 @@ body {
 
 html,
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Tahoma, Helvetica, Arial, sans-serif;
   font-size: 10pt;
   color: #494949; }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   margin: 1rem 0; }
 
 a {
@@ -114,8 +114,6 @@ header {
   text-align: center; }
 
 header .title {
-  text-transform: uppercase;
-  font-weight: bold;
   color: #494949; }
 
 .menu {
@@ -126,15 +124,13 @@ header .title {
   position: relative;
   display: inline-block;
   padding: 10px 15px;
-  margin: 0;
-  text-transform: uppercase; }
+  margin: 0; }
 
 .menu > li:hover {
   background-color: #494949; }
 
 .menu > li.active > a {
-  color: #494949;
-  font-weight: bold; }
+  color: #494949; }
 
 .menu > li:hover > a {
   color: white;
@@ -181,8 +177,6 @@ footer {
   text-align: center; }
 
 .page .title {
-  text-transform: uppercase;
-  font-weight: bold;
   font-size: 1rem;
   margin: 0 0 2rem 0; }
 
